@@ -14,11 +14,19 @@ target 'Shops' do
   target 'ShopsTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Alamofire'
+    pod 'AlamofireImage'
+    pod 'SwiftyJSON'
+    pod 'SVProgressHUD'
   end
 
   target 'ShopsUITests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Alamofire'
+    pod 'AlamofireImage'
+    pod 'SwiftyJSON'
+    pod 'SVProgressHUD'
   end
 
 end
