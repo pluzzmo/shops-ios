@@ -16,6 +16,9 @@
 		2D832AEE2277584C00A422DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D832AEC2277584C00A422DD /* LaunchScreen.storyboard */; };
 		2D832AF92277584C00A422DD /* ShopsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D832AF82277584C00A422DD /* ShopsTests.swift */; };
 		2D832B042277584C00A422DD /* ShopsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D832B032277584C00A422DD /* ShopsUITests.swift */; };
+		2D832B1622775AAE00A422DD /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D832B1522775AAE00A422DD /* ShopModel.swift */; };
+		2D832B1722775AAE00A422DD /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D832B1522775AAE00A422DD /* ShopModel.swift */; };
+		2D832B1822775AAE00A422DD /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D832B1522775AAE00A422DD /* ShopModel.swift */; };
 		C62E602F4DEE80D1ABB05ED9 /* Pods_ShopsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3618664006D22039A6A14EEA /* Pods_ShopsTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +53,7 @@
 		2D832AFF2277584C00A422DD /* ShopsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShopsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D832B032277584C00A422DD /* ShopsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsUITests.swift; sourceTree = "<group>"; };
 		2D832B052277584C00A422DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D832B1522775AAE00A422DD /* ShopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopModel.swift; sourceTree = "<group>"; };
 		3618664006D22039A6A14EEA /* Pods_ShopsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E11300A82D117B67E5E9817 /* Pods-ShopsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopsTests/Pods-ShopsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		580C968BC74A860DD16ED9C3 /* Pods-Shops.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shops.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shops/Pods-Shops.debug.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 		2D832B11227758E500A422DD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2D832B1522775AAE00A422DD /* ShopModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -431,6 +436,7 @@
 			files = (
 				2D832AE62277584A00A422DD /* ViewController.swift in Sources */,
 				2D832AE42277584A00A422DD /* AppDelegate.swift in Sources */,
+				2D832B1622775AAE00A422DD /* ShopModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +445,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D832AF92277584C00A422DD /* ShopsTests.swift in Sources */,
+				2D832B1722775AAE00A422DD /* ShopModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D832B042277584C00A422DD /* ShopsUITests.swift in Sources */,
+				2D832B1822775AAE00A422DD /* ShopModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
