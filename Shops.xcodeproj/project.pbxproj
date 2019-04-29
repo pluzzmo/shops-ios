@@ -15,6 +15,9 @@
 		2D23EE8D22775E610022DF5D /* ShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D23EE8922775E610022DF5D /* ShopCell.xib */; };
 		2D23EE8E22775E610022DF5D /* ShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D23EE8922775E610022DF5D /* ShopCell.xib */; };
 		2D23EE8F22775E610022DF5D /* ShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D23EE8922775E610022DF5D /* ShopCell.xib */; };
+		2D7D207E2277619C0033B82F /* ShopsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D207D2277619C0033B82F /* ShopsViewModel.swift */; };
+		2D7D207F2277619C0033B82F /* ShopsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D207D2277619C0033B82F /* ShopsViewModel.swift */; };
+		2D7D20802277619C0033B82F /* ShopsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D207D2277619C0033B82F /* ShopsViewModel.swift */; };
 		2D832AE42277584A00A422DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D832AE32277584A00A422DD /* AppDelegate.swift */; };
 		2D832AE92277584A00A422DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D832AE72277584A00A422DD /* Main.storyboard */; };
 		2D832AEB2277584C00A422DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D832AEA2277584C00A422DD /* Assets.xcassets */; };
@@ -53,6 +56,7 @@
 /* Begin PBXFileReference section */
 		2D23EE8822775E610022DF5D /* ShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCell.swift; sourceTree = "<group>"; };
 		2D23EE8922775E610022DF5D /* ShopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopCell.xib; sourceTree = "<group>"; };
+		2D7D207D2277619C0033B82F /* ShopsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsViewModel.swift; sourceTree = "<group>"; };
 		2D832AE02277584A00A422DD /* Shops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D832AE32277584A00A422DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D832AE82277584A00A422DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -182,6 +186,7 @@
 		2D832B12227758EC00A422DD /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				2D7D207D2277619C0033B82F /* ShopsViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -464,6 +469,7 @@
 			files = (
 				2D832B1E22775D2E00A422DD /* ShopsViewController.swift in Sources */,
 				2D832B1A22775B5900A422DD /* ShopsModel.swift in Sources */,
+				2D7D207E2277619C0033B82F /* ShopsViewModel.swift in Sources */,
 				2D832AE42277584A00A422DD /* AppDelegate.swift in Sources */,
 				2D832B1622775AAE00A422DD /* ShopModel.swift in Sources */,
 				2D23EE8A22775E610022DF5D /* ShopCell.swift in Sources */,
@@ -476,6 +482,7 @@
 			files = (
 				2D832B1F22775D2E00A422DD /* ShopsViewController.swift in Sources */,
 				2D832AF92277584C00A422DD /* ShopsTests.swift in Sources */,
+				2D7D207F2277619C0033B82F /* ShopsViewModel.swift in Sources */,
 				2D832B1B22775B5900A422DD /* ShopsModel.swift in Sources */,
 				2D832B1722775AAE00A422DD /* ShopModel.swift in Sources */,
 				2D23EE8B22775E610022DF5D /* ShopCell.swift in Sources */,
@@ -488,6 +495,7 @@
 			files = (
 				2D832B2022775D2E00A422DD /* ShopsViewController.swift in Sources */,
 				2D832B042277584C00A422DD /* ShopsUITests.swift in Sources */,
+				2D7D20802277619C0033B82F /* ShopsViewModel.swift in Sources */,
 				2D832B1C22775B5900A422DD /* ShopsModel.swift in Sources */,
 				2D832B1822775AAE00A422DD /* ShopModel.swift in Sources */,
 				2D23EE8C22775E610022DF5D /* ShopCell.swift in Sources */,
