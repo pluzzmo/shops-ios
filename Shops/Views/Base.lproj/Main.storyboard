@@ -38,10 +38,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="LNt-v6-B0T"/>
                     <connections>
+                        <outlet property="shopsViewModel" destination="FHn-Wu-eUE" id="Bmy-Tg-QAz"/>
                         <outlet property="tableView" destination="NEd-ty-weg" id="C3W-Qe-8Gj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="E3q-bc-j7N" customClass="ShopsModel" customModule="Shops" customModuleProvider="target"/>
+                <customObject id="FHn-Wu-eUE" customClass="ShopsViewModel" customModule="Shops" customModuleProvider="target">
+                    <connections>
+                        <outlet property="shopsModel" destination="E3q-bc-j7N" id="Q7M-bU-v9I"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="1810.144927536232" y="799.72826086956525"/>
         </scene>

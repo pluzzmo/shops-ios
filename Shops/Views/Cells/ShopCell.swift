@@ -26,4 +26,15 @@ class ShopCell: UITableViewCell {
         
         // Configure the view for the selected state
     }
+    
+    func configure(withShop shop: ShopModel) {
+        
+        // Set shop details
+        self.nameLabel.text = shop.name.uppercased()
+        self.addressLabel.text = "\(shop.address) \(shop.zipcode) \(shop.city)"
+        self.offerLabel.text = "up to \(shop.maxOffer) \(shop.currency) offered"
+        self.logoImageView.af_setImage(
+            withURL: URL(string: shop.logoUrl)!
+        )
+    }
 }

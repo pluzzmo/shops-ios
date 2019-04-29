@@ -10,7 +10,7 @@ import UIKit
 
 class ShopsViewModel: NSObject {
     
-    var shopsModel: ShopsModel!
+    @IBOutlet var shopsModel: ShopsModel!
     var shops: [ShopModel]?
     
     func numberOfRowsInSection(section: Int) -> Int {
@@ -24,7 +24,7 @@ class ShopsViewModel: NSObject {
     func fetchShops(completion: @escaping (_ error: Error?) -> ()) {
         
         // Fetch Shops
-        self.shopsModel.fetchShopsData(completion: { (shops, err) in
+        shopsModel.fetchShopsData(completion: { (shops, err) in
             self.shops = shops
             completion(err)
         })
