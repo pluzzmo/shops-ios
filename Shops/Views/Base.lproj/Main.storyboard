@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Shops View Controller-->
+        <!--Shops-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ShopsViewController" customModule="Shops" customModuleProvider="target" sceneMemberID="viewController">
@@ -36,7 +36,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="LNt-v6-B0T"/>
+                    <navigationItem key="navigationItem" title="Shops" id="LNt-v6-B0T"/>
                     <connections>
                         <outlet property="shopsViewModel" destination="FHn-Wu-eUE" id="Bmy-Tg-QAz"/>
                         <outlet property="tableView" destination="NEd-ty-weg" id="C3W-Qe-8Gj"/>
@@ -60,6 +60,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lxz-2n-u6D">
                         <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.10057022422552109" green="0.47123146057128906" blue="0.65849107503890991" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
